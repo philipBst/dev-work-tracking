@@ -3,8 +3,8 @@ import { Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
 import { flexRender, HeaderGroup, RowModel } from "@tanstack/react-table";
 
 export type TrackingTableProps = {
-  getHeaderGroups?: () => HeaderGroup<any>[];
-  getRowModel?: () => RowModel<any>;
+  getHeaderGroups: () => HeaderGroup<any>[];
+  getRowModel: () => RowModel<any>;
 };
 
 const TracksTable: React.FC<TrackingTableProps> = ({
@@ -13,7 +13,7 @@ const TracksTable: React.FC<TrackingTableProps> = ({
 }) => (
   <Table variant="simple">
     <Thead>
-      {getHeaderGroups?.().map((headerGroup) => (
+      {getHeaderGroups().map((headerGroup) => (
         <Tr key={headerGroup.id}>
           {headerGroup.headers.map((header) => (
             <Th key={header.id} colSpan={header.colSpan}>
@@ -29,7 +29,7 @@ const TracksTable: React.FC<TrackingTableProps> = ({
       ))}
     </Thead>
     <Tbody>
-      {getRowModel?.().rows.map((row) => (
+      {getRowModel().rows.map((row) => (
         <Tr key={row.id}>
           {row.getVisibleCells().map((cell) => (
             <Td key={cell.id}>
