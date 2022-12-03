@@ -1,4 +1,4 @@
-export class Entity {
+export class TrackerEntity {
   activity: string;
   project: string;
   workers: string;
