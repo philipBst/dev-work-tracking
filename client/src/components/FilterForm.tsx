@@ -1,4 +1,20 @@
 import { Button, HStack, Input, Select, Text, VStack } from "@chakra-ui/react";
+import { MultiSelect, Option } from "chakra-multiselect";
+
+export const options: Option[] = [
+  {
+    value: "KAHOOT",
+    label: "KAHOOT",
+  },
+  {
+    value: "JOT DREAM",
+    label: "JOT DREAM",
+  },
+  {
+    value: "SURVEY MONKEY",
+    label: "SURVEY MONKEY",
+  },
+];
 
 export const FilterForm = () => (
   <HStack alignItems="end">
@@ -12,7 +28,12 @@ export const FilterForm = () => (
     </VStack>
     <VStack>
       <Text>Choose Projects</Text>
-      <>Multi select</>
+      <MultiSelect
+        options={options}
+        value={[]}
+        onChange={(e) => {}}
+        maxWidth={400}
+      />
     </VStack>
     <Button variant="solid" onClick={() => {}}>
       Filter
