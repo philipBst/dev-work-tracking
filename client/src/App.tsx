@@ -1,12 +1,12 @@
 import { VStack } from "@chakra-ui/react";
 
-import { FilterForm } from "./components";
+import { FilterForm, TracksTable } from "./components";
 
 function App() {
   return (
     <VStack mt={10}>
       <FilterForm />
-      <div>table goes here</div>
+      <TracksTable />
     </VStack>
   );
 }
