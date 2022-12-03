@@ -1,9 +1,11 @@
 import { VStack } from "@chakra-ui/react";
 
+import { FilterForm } from "./components";
+
 function App() {
   return (
     <VStack>
-      <div>filter input goes here</div>
+      <FilterForm />
       <div>table goes here</div>
     </VStack>
   );
