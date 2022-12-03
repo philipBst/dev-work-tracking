@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/core": ">=7.0.0 <8.0.0",
+    "@chakra-ui/react": "^2.4.2",
+    "@chakra-ui/react-utils": ">=2",
+    "@chakra-ui/styled-system": ">=2.0.0",
+    "@chakra-ui/theme-tools": ">=2",
+    "@chakra-ui/utils": ">=2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@tanstack/react-table": "^8.7.0",
+    "chakra-multiselect": "^0.3.7",
+    "date-fns": "^2.29.3",
+    "framer-motion": "^7.6.18",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
