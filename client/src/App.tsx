@@ -4,7 +4,7 @@ import { FilterForm } from "./components";
 
 function App() {
   return (
-    <VStack>
+    <VStack mt={10}>
       <FilterForm />
       <div>table goes here</div>
     </VStack>
