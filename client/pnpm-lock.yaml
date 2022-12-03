@@ -14,6 +14,7 @@ specifiers:
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^2.2.0
   chakra-multiselect: ^0.3.7
+  date-fns: ^2.29.3
   framer-motion: ^7.6.18
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -31,6 +32,7 @@ dependencies:
   '@emotion/styled': 11.10.5_3djhvnr4jirfvebjqpipo7gthy
   '@tanstack/react-table': 8.7.0_biqbaboplfbrettd7655fr4n2y
   chakra-multiselect: 0.3.7_5hn63nnifdojnzuawaeb4m6iqq
+  date-fns: 2.29.3
   framer-motion: 7.6.18_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1758,6 +1760,11 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+
+  /date-fns/2.29.3:
+    resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
+    engines: {node: '>=0.11'}
+    dev: false
 
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
