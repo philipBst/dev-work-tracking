@@ -1,4 +1,4 @@
-export const getRequest = async (endpoint: string) => {
+export const getRequest = async <T>(endpoint: string): Promise<T> => {
   const response = await fetch(endpoint);
-  return response;
+  return await response.json();
 };
